@@ -1,0 +1,30 @@
+{
+  "name": "invertory-system",
+  "version": "1.0.0",
+  "description": "all invetory activities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kmit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "phone": "^2.4.21"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keymouseit/inventory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keymouseit/inventory/issues"
+  },
+  "homepage": "https://github.com/keymouseit/inventory#readme"
+}
